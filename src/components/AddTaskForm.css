@@ -1,0 +1,39 @@
+.add-task-form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task-form-container h2 {
+  margin-bottom: 20px;
+}
+
+.add-task-form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-task-form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.add-task-form-container button,
+.add-task-form-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.add-task-form-container button:hover,
+.add-task-form-container a:hover {
+  background-color: #0056b3;
+}
